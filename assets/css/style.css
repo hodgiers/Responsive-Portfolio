@@ -68,7 +68,7 @@ nav ul li a:hover {
 
 #bio-image {
 	float:left;
-	margin: 20px 20px 20px 0;
+	margin: 10px 10px 10px 0;
 }
 
 #content-wrapper {
@@ -102,6 +102,7 @@ h1, h2, h3 {
 	border: solid 1px #dddddd;
 	padding: 30px;
 	float: right;
+  margin-bottom: 40px
 }
 
 #footer{
@@ -117,7 +118,7 @@ h1, h2, h3 {
 
 /* portfolio page */
 
-.work {
+.examplework {
   position: relative;
   float: left;
   width: 274px;
@@ -125,17 +126,17 @@ h1, h2, h3 {
   overflow: auto;
 }
 
-.work:nth-child(even) {
+.examplework:nth-child(even) {
   margin-right: 40px;
 }
 
-.work img {
+.examplework img {
   width: 100%;
   border: 0 none;
   opacity: 0.8;
 }
 
-.work h3 {
+.examplework h3 {
   position: absolute;
   bottom: 20px;
   width: 100%;
@@ -147,6 +148,7 @@ h1, h2, h3 {
   text-align: center;
   background: #4aaaa5;
   border-bottom: 0;
+}
 
 /* contact page */
 
@@ -190,19 +192,19 @@ input[type=submit] {
 
 /* 768px index page */
 
-  .auth-image {
+  .bio-image {
     width: 50%;
   }
 
 /* 768px portfolio page */
 
-  .work {
+  .examplework {
     float: none;
     width: 45%;
     display: inline-block;
   }
 
-  .work:nth-child(even) {
+  .examplework:nth-child(even) {
     margin-right: 55px;
   }
 
@@ -213,7 +215,7 @@ input[type=submit] {
 
 @media screen and (max-width: 640px) {
 
-  #masthead {
+  #content-wrapper {
     position: static;
     padding: 0;
     margin-bottom: 40px;
@@ -235,15 +237,15 @@ input[type=submit] {
     padding: 0 55px;
   }
 
-  #main-container {
+  #content-area {
     padding: 0 10px;
   }
   
-  .main-section {
+  .main-content {
     float: none;
   }
 
-  .sidebar {
+  .social-media {
     float: none;
     max-width: 100%;
     margin: 0 0 40px;
